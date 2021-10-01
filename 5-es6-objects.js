@@ -28,7 +28,7 @@ const product = {
 // //?NOTE the equal operator is used to assign a default value
 // console.log(productName, stock, rating);
 
-const transaction = (type, { label, stock }) => {
+const transaction = (type, { label, stock } = {}) => {
   console.log(type, label, stock);
 }
 
